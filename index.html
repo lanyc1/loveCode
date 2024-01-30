@@ -22,26 +22,8 @@ canvas {
  </HEAD>
 
  <BODY>
- <div style="position: absolute; z-index: 99; color: chartreuse; margin-top: 20%; text-align: center; width: 100%; " onClick="changetext()" id="xianshi">点击这里修改文字
-<br>
-<input type="text" style="display: none; margin-left: 45%;  margin-top: 5%;" id="text" placeholder="请输入要修改的内容" > <button Onclick="queren()" id="buttons"  style="display: none; margin-left: 48%;  margin-top: 5%;"">确认修改</button>
+ <div style="position: absolute; z-index: 99; color: chartreuse; margin-top: 20%; text-align: center; width: 100%; " onClick="changetext()" id="xianshi">魏静
 </div>
- 
- <script>
- function changetext(){
-  var inpurtext= document.getElementById('text')
-  var anniu=document.getElementById('buttons')
-  inpurtext.style.display='block'
-  anniu.style.display='block'
-  }
-  function queren(){
-  var inpurtext2= document.getElementById('text')
-  var anniu2=document.getElementById('buttons')
-  var xianshi=document.getElementById('xianshi')
-  xianshi.innerHTML='无论你如何修改，兰玉臣都是最帅的'
-  console.log(inpurtext2)
-  }
- </script>
   <canvas id="pinkboard">
   
   </canvas>
